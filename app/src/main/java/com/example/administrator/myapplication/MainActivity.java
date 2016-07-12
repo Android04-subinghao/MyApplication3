@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onAnimationEnd(Animation animation) {
                 Intent intent=new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
-
+                finish();
             }
 
             @Override

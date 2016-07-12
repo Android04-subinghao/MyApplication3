@@ -27,6 +27,7 @@ public class ViewPagerText extends AppCompatActivity implements View.OnClickList
         if (!b){
             Intent intent=new Intent(ViewPagerText.this,TestActivity.class);
             startActivity(intent);
+            finish();
         }else {
             setContentView(R.layout.activity_view_pager);
             mViewPager = (ViewPager) findViewById(R.id.vp_pager);
