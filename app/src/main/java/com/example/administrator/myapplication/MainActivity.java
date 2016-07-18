@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mImageView= (ImageView) findViewById(R.id.image);
-        Animation animation=new AlphaAnimation(0.5f,1.0f);
+        Animation animation=new AlphaAnimation(0.0f,1.0f);
         animation.setDuration(3000);
         animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
